@@ -1,0 +1,25 @@
+#! Does not interpret ctrl-<left-arrow> etc correctly in vim
+export TERM=xterm-256color
+
+#! Set up editor of choice
+export EDITOR=vim
+
+#! Java Exports
+export JDK_HOME="/usr/lib/jvm/java-7-openjdk-amd64"
+export JRE_HOME="/usr/lib/jvm/java-7-openjdk-amd64/jre"
+
+#! LDraw Exports
+export LDRAW_HOME="/opt/ldraw"
+
+#! LeoCAD Exports
+export LEOCAD_LIB="$LDRAW_HOME"
+
+#! Libgmp exports
+export LD_LIBRARY_PATH="/usr/local/lib":"$LD_LIBRARY_PATH"
+
+#! LibGLEW exports
+export LD_LIBRARY_PATH="/usr/lib64"
+
+#! Set up PATH to include the current working directory
+#  Included after /bin for security reasons
+export PATH="/usr/bin":"/usr/local/sbin":"/usr/local/bin":"/usr/sbin:/sbin":"/bin:/usr/games":"${HOME}/projects/scripts":"."
