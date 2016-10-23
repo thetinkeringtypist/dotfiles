@@ -1,6 +1,6 @@
 "! Default options for VIM
-"  If :echo $TERM is konsole-256
-"set nocompatible
+"  If :echo $TERM is xterm-256
+set nocompatible
 syntax on
 set autoindent
 set smartindent
