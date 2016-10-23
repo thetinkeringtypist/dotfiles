@@ -6,7 +6,7 @@ if [ -x /usr/bin/dircolors ]; then
 
 	export LS_OPTIONS='--color=auto'
 
-	alias vi='$EDITOR'
+	alias vi='vim'
 	alias ..='cd ..'
 	alias ls='ls -l $LS_OPTIONS'
 	alias sl='ls -l $LS_OPTIONS'
