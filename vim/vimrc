@@ -1,7 +1,8 @@
 "! Default options for VIM
 "  If :echo $TERM is xterm-256
-set nocompatible
+colorscheme antares
 syntax on
+set nocompatible
 set autoindent
 set smartindent
 set noexpandtab
