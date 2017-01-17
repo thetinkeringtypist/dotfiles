@@ -14,6 +14,15 @@ set textwidth=79
 set showmode
 set nu
 set cc=80
+set incsearch
+
+"! Remapping navigation keys
+"  j -> left one character
+"  l -> right one character
+"  k -> up one line
+"  , -> down one line
+noremap j h
+noremap , j
 
 "! Restore cursor to the last place in the most recent files"
 "  '10  :  marks will be remembered for up to 10 previously edited files
