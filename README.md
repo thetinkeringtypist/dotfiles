@@ -1,6 +1,6 @@
 My Dotfiles
 ===========
-These are my dotfiles. Back up your own dotfiles prior to using any of these.
+Run apply-dotfiles.sh from the project directory.
 
 License
 -------
