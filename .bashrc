@@ -22,22 +22,16 @@ if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
 fi
 
 
-#! Terminal definitions
-if [ -f ~/.terminal ]; then
-	. ~/.terminal
-fi
-
-
 #! Export definitions
-if [ -f ~/.exports ]; then
-	. ~/.exports
+if [ -f ~/.bash_variables ]; then
+	. ~/.bash_variables
 fi
 
 
 #! Alias definitions
 #  See /usr/share/doc/bash-doc/examples in the bash-doc package.
-if [ -f ~/.aliases ]; then
-    . ~/.aliases
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
 fi
 
 

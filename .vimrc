@@ -1,6 +1,5 @@
 "! Default options for VIM
 "  If :echo $TERM is xterm-256
-colorscheme antares
 syntax on
 set nocompatible
 set autoindent
@@ -10,10 +9,10 @@ set tabstop=3
 set shiftwidth=3
 set fileformat=unix
 set backspace=indent,eol,start
-set textwidth=79
+set textwidth=119
 set showmode
 set nu
-set cc=80
+set cc=120
 set incsearch
 
 "! Remapping navigation keys
